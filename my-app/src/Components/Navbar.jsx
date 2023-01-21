@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
 
-const Links = ["home", "Products", "items"];
+const Links = ["home", <input />, "cart"];
 
 const NavLink = ({ children } = { children: ReactNode }) => (
   <Link
@@ -41,7 +41,7 @@ export default function Nav() {
 
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box bg={useColorModeValue("red.100", "red.100")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -109,8 +109,6 @@ export default function Nav() {
           </Box>
         ) : null}
       </Box>
-
-      <Box p={4}>Main Content Here</Box>
     </>
   );
 }

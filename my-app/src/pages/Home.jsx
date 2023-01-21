@@ -1,7 +1,12 @@
+import MyCarousel from "../Components/Slider";
+import Nav from "../Components/Navbar";
+import Footer from "../Components/Footer";
 const Home = () => {
   return (
     <>
-      <h1>welcome ...</h1>
+      <Nav />
+      <MyCarousel />
+      <Footer />
     </>
   );
 };
