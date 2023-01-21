@@ -1,17 +1,51 @@
 export default function Footer() {
   return (
     <div>
-      <div>
-        <div></div>
+      <div style={{ display: "flex" }}>
         <div>
-          <img src="https://i4.sdlcdn.com/img/footer/facebook@4x.png"></img>
-          <img src="https://i1.sdlcdn.com/img/footer/twitter@4x.png"></img>
-          <img src="https://i4.sdlcdn.com/img/footer/instagram@4x.png"></img>
-          <img src="https://i2.sdlcdn.com/img/footer/linkedin@4x.png"></img>
-          <img src="https://i1.sdlcdn.com/img/footer/youtube@4x.png"></img>
-          <img src="https://i4.sdlcdn.com/img/footer/Telegram-Logo_112x112.png"></img>
+          <img
+            style={{ marginLeft: "30px", height: "30px" }}
+            src="https://assets.asosservices.com/asos-finance/images/marketing/single.png"
+          ></img>
         </div>
-        <img src="https://i1.sdlcdn.com/img/footer/whatsapp-logo-112x112.png"></img>
+        <div style={{ display: "flex", margin: "auto" }}>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i4.sdlcdn.com/img/footer/facebook@4x.png"
+            alt=""
+          ></img>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i1.sdlcdn.com/img/footer/twitter@4x.png"
+            alt=""
+          ></img>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i4.sdlcdn.com/img/footer/instagram@4x.png"
+            alt=""
+          ></img>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i2.sdlcdn.com/img/footer/linkedin@4x.png"
+            alt=""
+          ></img>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i1.sdlcdn.com/img/footer/youtube@4x.png"
+            alt=""
+          ></img>
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i4.sdlcdn.com/img/footer/Telegram-Logo_112x112.png"
+            alt=""
+          ></img>
+
+          <img
+            style={{ width: "40px", height: "40px" }}
+            src="https://i1.sdlcdn.com/img/footer/whatsapp-logo-112x112.png"
+            alt=""
+          ></img>
+        </div>
       </div>
       <div>
         <p>
