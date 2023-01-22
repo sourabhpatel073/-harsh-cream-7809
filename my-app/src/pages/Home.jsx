@@ -1,11 +1,33 @@
 import MyCarousel from "../Components/Slider";
 import Nav from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import Trending from "../Components/Trending ";
+import LeftDiv from "../Components/LeftDiv";
 const Home = () => {
   return (
     <>
       <Nav />
-      <MyCarousel />
+      <div style={{ display: "flex", margin: "auto" }}>
+        <LeftDiv />
+        <div style={{ width: "75%", margin: "auto" }}>
+          <MyCarousel />
+          <div>
+            <h1
+              style={{
+                marginLeft: "40%",
+                color: "green",
+                paddingBottom: "15px",
+              }}
+            >
+              {" "}
+              <b>Trending Products</b>
+            </h1>
+            <Trending />
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
       <Footer />
     </>
   );
