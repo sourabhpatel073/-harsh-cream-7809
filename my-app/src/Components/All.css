@@ -19,7 +19,9 @@
     padding: 5% 0 0 5%
 }
 
-@media screen  and(max-width:480) {
+
+
+@media screen and (min-width: 480px) {
    
 .grid{
     display: grid;
@@ -30,7 +32,7 @@
   }
 
   
-@media screen  and(max-width:720px) {
+@media screen and (min-width: 720px)  {
    
     .grid{
         display: grid;
@@ -42,9 +44,12 @@
 
 
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 25px
-}
+      @media screen and (min-width: 1020px)  {
+   
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 25px
+        }
+          }
